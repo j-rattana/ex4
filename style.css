@@ -1,0 +1,52 @@
+/* a minimalist set of CSS resets */
+
+/* default to border-box */
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1rem;
+  font-family: sans-serif;
+  color: white;
+  line-height: 1.5;
+  background-image: url("https://cdn.glitch.global/7fb5c511-dbcf-4cd5-afa4-ea1cd21594a3/background.jpeg?v=1663546105264");
+  background-size: cover;
+}
+
+h1 {
+  margin-top: 0px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 4rem;
+
+  background: red;
+  background: -webkit-linear-gradient(left, orange , yellow, green, cyan, blue, violet);
+  background: -o-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+  background: linear-gradient(to right, orange , yellow, green, cyan, blue, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+h2 {
+    text-align: center;
+}
+
+ol {
+  text-align: left;
+}
+
+ul {
+  list-style-type: none;
+  text-align: center;
+}
+
+a {
+  color: cyan;
+}
