@@ -53,6 +53,7 @@ a {
   color: cyan;
 }
 
+/* Credits to ChatGPT for guided help for the pointer, hover, and transformation */
 #ClosedVault {
   cursor: pointer;
   transition: transform 0.2s ease-in-out;
