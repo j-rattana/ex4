@@ -52,3 +52,8 @@ ul {
 a {
   color: cyan;
 }
+
+#ClosedVault {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
