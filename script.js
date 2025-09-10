@@ -7,9 +7,9 @@ ChatGPT help me understand how to do certain codes and what each part means.
   var vault=document.getElementById("ClosedVault");
 
 vault.addEventListener("click", function() {
-  if (vault.src.includes("metallic-bank-vault-door-isolated-white.png")) {
+  if (vault.src.includes("better vault.png")) {
     vault.src="./assets/half-open-bank-vault-door-white-safe-bank-metal-door-safe-lock-security-bank-open-safe-bank-vector-illustration.png";
   } else {
-    vault.src="./assets/metallic-bank-vault-door-isolated-white.png";
+    vault.src="./assets/better vault.png";
   }
 });
